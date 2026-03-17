@@ -19,3 +19,8 @@ h1 {
 .question-box, .result-box {
     margin-top: 20px;
 }
+
+h2 {
+    color: #555;
+}
+
