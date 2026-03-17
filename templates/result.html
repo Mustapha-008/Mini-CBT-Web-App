@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Mini CBT - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <h1>Test Completed</h1>
+        <div class="result-box">
+            <p>Your Score: <strong>{{ score }} / {{ total }}</strong></p>
+            <p>Completed at: {{ timestamp }}</p>
+            <p>Duration: {{ duration }}</p>
+            <a href="{{ url_for('index') }}" class="btn">Take Test Again</a>
+        </div>
+    </div>
+</body>
+</html>
