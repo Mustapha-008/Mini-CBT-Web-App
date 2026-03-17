@@ -40,8 +40,6 @@ mini_cbt/ │ ├── app.py # Main Flask application with routes and logic �
 
 2. Open a terminal or command prompt and navigate to the project directory:
 
-   ```bash
-   cd path/to/mini_cbt
 (Optional) Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
